@@ -34,3 +34,4 @@ html:
 launch_buttons:
   thebe                  : true
   jupyterhub_url: https://teachinghub.st-andrews.ac.uk/thub  # The URL for your JupyterHub. (e.g., https://datahub.berkeley.edu)
+  
