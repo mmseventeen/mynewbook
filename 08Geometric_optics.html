@@ -1591,29 +1591,20 @@ Wall time: 14.2 s
 </div>
 </div>
 
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "mmseventeen/mynewbook",
-            ref: "main",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            kernelName: "python3",
-            path: "./.",
-     serverSettings: {
+<script type="text/x-thebe-config">
+{
+  requestKernel: true,
+  kernelOptions: {
+    name: "python3",
+ serverSettings: {
         "baseUrl": "https://teachinghub.st-andrews.ac.uk/thub",
         "token": "c6d9a669228c440b9720c08818b8b37c"
       }
-        },
-        predefinedOutput: true
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
+  },
+}
+</script>
+<!-- The kernel needs specifiying too -->
+ <script>kernelName = 'python3'</script>
 
               </div>
               
